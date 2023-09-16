@@ -15,7 +15,7 @@ function writeToFile(fileName, answers) {
 
     let shapeSelection;
     if (answers.shape === "Triangle") {
-        shapeSelection = new "Triangle"(); {
+        shapeSelection = new Triangle(); 
             svgString += `<polygon points= "150, 18 244, 182 56, 182" fill="${answers.shapeBackgroundColor}"/>`;
         } else if (answers.shape === "Square") {
             shapeSelection = new Square();
@@ -67,9 +67,8 @@ function writeToFile(fileName, answers) {
                 } else {
                     writeFile("logo.svg", answers);
                 }
-            }) 
+            });
     }
-}
 
 
 

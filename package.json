@@ -1,12 +1,22 @@
 {
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
   "name": "bug-free-guacamole",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "directories": {
+    "lib": "lib"
   },
+
+  "scripts": {
+    "test": "jest"
+  },
+  
+  "devDependencies": {},
+
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }
